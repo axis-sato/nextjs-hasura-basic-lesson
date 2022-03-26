@@ -24,7 +24,7 @@ afterAll(() => {
 })
 
 process.env.NEXT_PUBLIC_HASURA_URL =
-  'https://winning-caiman-23.hasura.app/v1/graphq'
+  'https://winning-caiman-23.hasura.app/v1/graphql'
 
 describe('UserDetail Test Cases', () => {
   it('Should render the user detail pre-fetched by getStaticProps', async () => {

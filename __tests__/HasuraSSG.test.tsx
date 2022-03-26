@@ -9,7 +9,7 @@ import { handlers } from '../mock/handlers'
 import 'setimmediate'
 
 process.env.NEXT_PUBLIC_HASURA_URL =
-  'https://winning-caiman-23.hasura.app/v1/graphq'
+  'https://winning-caiman-23.hasura.app/v1/graphql'
 
 initTestHelpers()
 
